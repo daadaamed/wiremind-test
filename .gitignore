@@ -1,0 +1,7 @@
+# compiled binary
+go-hello-app/app/server
+go-hello-app/app/main
+
+# local test-build
+*.exe
+*.test
