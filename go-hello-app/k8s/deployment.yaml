@@ -2,9 +2,9 @@ apiVersion: apps/v1
 kind: Deployment
 metadata:
   name: hello-wiremind
+  namespace: hello-app
   labels:
     app: hello-wiremind
-    namespace: hello-app
 spec:
   replicas: 2
   selector:
@@ -45,3 +45,4 @@ spec:
             periodSeconds: 10
           securityContext:
             runAsNonRoot: true
+            runAsUser: 65532
