@@ -1,0 +1,9 @@
+.git
+.github
+k8s
+README.md
+*.md
+.dockerignore
+
+*.log
+.DS_Store
